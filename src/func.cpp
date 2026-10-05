@@ -6,3 +6,8 @@ float calcularDobro(float valorDobro)
     return dobro;
 }
 
+bool ehPar(int valorPar)
+{
+    bool par = valorPar % 2;
+    return par;
+}
