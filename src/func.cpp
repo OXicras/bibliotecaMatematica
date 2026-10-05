@@ -26,3 +26,14 @@ float calculadoraMagica(float valor1, float valor2, int operacao)
         return 0;
     }
 }
+
+int calcularFatorial(int valorFatorial)
+{
+    int resultadoFatorial = 1;
+    while (valorFatorial > 0)
+    {
+        resultadoFatorial *= valorFatorial;
+        valorFatorial --;
+    }
+    return resultadoFatorial;
+}

@@ -4,5 +4,6 @@
 float calcularDobro(float);
 bool ehPar (int);
 float calculadoraMagica(float, float, int);
+int calcularFatorial(int);
 
 #endif

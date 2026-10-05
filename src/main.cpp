@@ -14,6 +14,8 @@ void setup()
   {
     Serial.println(calculadoraMagica(4, 2, i));
   }
+
+  Serial.println(calcularFatorial(3));
 }
 
 void loop() 
